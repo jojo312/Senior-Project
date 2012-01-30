@@ -1,0 +1,244 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A681B8C14991202002E2E9E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A681B8B14991202002E2E9E /* Foundation.framework */; };
+		2A681B8F14991202002E2E9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A681B8E14991202002E2E9E /* main.m */; };
+		2A681B9B1499129E002E2E9E /* DSLocationDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A681B9A1499129E002E2E9E /* DSLocationDelegate.m */; };
+		2A681B9E149912CB002E2E9E /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A681B9C149912C1002E2E9E /* CoreLocation.framework */; };
+		2A681BA0149915A2002E2E9E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A681B9F149915A2002E2E9E /* Cocoa.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A681B8514991202002E2E9E /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A681B8714991202002E2E9E /* DSLocation */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSLocation; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A681B8B14991202002E2E9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A681B8E14991202002E2E9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A681B9114991202002E2E9E /* DSLocation-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DSLocation-Prefix.pch"; sourceTree = "<group>"; };
+		2A681B991499129E002E2E9E /* DSLocationDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSLocationDelegate.h; sourceTree = "<group>"; };
+		2A681B9A1499129E002E2E9E /* DSLocationDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSLocationDelegate.m; sourceTree = "<group>"; };
+		2A681B9C149912C1002E2E9E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2A681B9F149915A2002E2E9E /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A681B8414991202002E2E9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A681BA0149915A2002E2E9E /* Cocoa.framework in Frameworks */,
+				2A681B9E149912CB002E2E9E /* CoreLocation.framework in Frameworks */,
+				2A681B8C14991202002E2E9E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A681B7C14991201002E2E9E = {
+			isa = PBXGroup;
+			children = (
+				2A681B9F149915A2002E2E9E /* Cocoa.framework */,
+				2A681B8D14991202002E2E9E /* DSLocation */,
+				2A681B8A14991202002E2E9E /* Frameworks */,
+				2A681B8814991202002E2E9E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A681B8814991202002E2E9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A681B8714991202002E2E9E /* DSLocation */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A681B8A14991202002E2E9E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A681B9C149912C1002E2E9E /* CoreLocation.framework */,
+				2A681B8B14991202002E2E9E /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A681B8D14991202002E2E9E /* DSLocation */ = {
+			isa = PBXGroup;
+			children = (
+				2A681B8E14991202002E2E9E /* main.m */,
+				2A681B9014991202002E2E9E /* Supporting Files */,
+				2A681B991499129E002E2E9E /* DSLocationDelegate.h */,
+				2A681B9A1499129E002E2E9E /* DSLocationDelegate.m */,
+			);
+			path = DSLocation;
+			sourceTree = "<group>";
+		};
+		2A681B9014991202002E2E9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A681B9114991202002E2E9E /* DSLocation-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A681B8614991202002E2E9E /* DSLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A681B9614991202002E2E9E /* Build configuration list for PBXNativeTarget "DSLocation" */;
+			buildPhases = (
+				2A681B8314991202002E2E9E /* Sources */,
+				2A681B8414991202002E2E9E /* Frameworks */,
+				2A681B8514991202002E2E9E /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSLocation;
+			productName = DSLocation;
+			productReference = 2A681B8714991202002E2E9E /* DSLocation */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A681B7E14991201002E2E9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2A681B8114991201002E2E9E /* Build configuration list for PBXProject "DSLocation" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A681B7C14991201002E2E9E;
+			productRefGroup = 2A681B8814991202002E2E9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A681B8614991202002E2E9E /* DSLocation */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A681B8314991202002E2E9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A681B8F14991202002E2E9E /* main.m in Sources */,
+				2A681B9B1499129E002E2E9E /* DSLocationDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A681B9414991202002E2E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		2A681B9514991202002E2E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		2A681B9714991202002E2E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSLocation/DSLocation-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A681B9814991202002E2E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSLocation/DSLocation-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A681B8114991201002E2E9E /* Build configuration list for PBXProject "DSLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A681B9414991202002E2E9E /* Debug */,
+				2A681B9514991202002E2E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A681B9614991202002E2E9E /* Build configuration list for PBXNativeTarget "DSLocation" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A681B9714991202002E2E9E /* Debug */,
+				2A681B9814991202002E2E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A681B7E14991201002E2E9E /* Project object */;
+}

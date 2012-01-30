@@ -1,0 +1,407 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A42A558149804DF00948C62 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A42A557149804DF00948C62 /* CoreFoundation.framework */; };
+		2A42A5691498058F00948C62 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A42A5631498054800948C62 /* Cocoa.framework */; };
+		2A42A56A1498059400948C62 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A42A5651498055900948C62 /* QTKit.framework */; };
+		2A42A56B1498059400948C62 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A42A5671498056500948C62 /* Quartz.framework */; };
+		2A42A56E1498064100948C62 /* DSSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A42A56D1498064100948C62 /* DSSnapshot.m */; };
+		2A681B0E1498A2E3002E2E9E /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A42A5631498054800948C62 /* Cocoa.framework */; };
+		2A681B181498A2E3002E2E9E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2A681B161498A2E3002E2E9E /* InfoPlist.strings */; };
+		2A681B1A1498A2E3002E2E9E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A681B191498A2E3002E2E9E /* main.m */; };
+		2A681B1E1498A2E3002E2E9E /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 2A681B1C1498A2E3002E2E9E /* Credits.rtf */; };
+		2A681B211498A2E3002E2E9E /* DSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A681B201498A2E3002E2E9E /* DSAppDelegate.m */; };
+		2A681B241498A2E4002E2E9E /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A681B221498A2E4002E2E9E /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A42A551149804DF00948C62 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A42A553149804DF00948C62 /* DeviceSeekerSnapshot */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DeviceSeekerSnapshot; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A42A557149804DF00948C62 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		2A42A5631498054800948C62 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2A42A5651498055900948C62 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		2A42A5671498056500948C62 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		2A42A56C1498064100948C62 /* DSSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSSnapshot.h; sourceTree = SOURCE_ROOT; };
+		2A42A56D1498064100948C62 /* DSSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSSnapshot.m; sourceTree = SOURCE_ROOT; };
+		2A681B0C1498A2E3002E2E9E /* DSLogin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DSLogin.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A681B101498A2E3002E2E9E /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2A681B111498A2E3002E2E9E /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		2A681B151498A2E3002E2E9E /* DSLogin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DSLogin-Info.plist"; sourceTree = "<group>"; };
+		2A681B171498A2E3002E2E9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2A681B191498A2E3002E2E9E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A681B1B1498A2E3002E2E9E /* DSLogin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DSLogin-Prefix.pch"; sourceTree = "<group>"; };
+		2A681B1D1498A2E3002E2E9E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		2A681B1F1498A2E3002E2E9E /* DSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DSAppDelegate.h; sourceTree = "<group>"; };
+		2A681B201498A2E3002E2E9E /* DSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DSAppDelegate.m; sourceTree = "<group>"; };
+		2A681B231498A2E4002E2E9E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		2A681B381498AAD4002E2E9E /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = SDKs/MacOSX10.7.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		2A681BC1149918BD002E2E9E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A42A550149804DF00948C62 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A42A5691498058F00948C62 /* Cocoa.framework in Frameworks */,
+				2A42A558149804DF00948C62 /* CoreFoundation.framework in Frameworks */,
+				2A42A56A1498059400948C62 /* QTKit.framework in Frameworks */,
+				2A42A56B1498059400948C62 /* Quartz.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A681B091498A2E3002E2E9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A681B0E1498A2E3002E2E9E /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A42A548149804DF00948C62 = {
+			isa = PBXGroup;
+			children = (
+				2A42A559149804DF00948C62 /* DeviceSeekerSnapshot */,
+				2A681B131498A2E3002E2E9E /* DSLogin */,
+				2A42A556149804DF00948C62 /* Frameworks */,
+				2A42A554149804DF00948C62 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A42A554149804DF00948C62 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A42A553149804DF00948C62 /* DeviceSeekerSnapshot */,
+				2A681B0C1498A2E3002E2E9E /* DSLogin.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A42A556149804DF00948C62 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A42A5631498054800948C62 /* Cocoa.framework */,
+				2A42A557149804DF00948C62 /* CoreFoundation.framework */,
+				2A681B381498AAD4002E2E9E /* CoreLocation.framework */,
+				2A681BC1149918BD002E2E9E /* Foundation.framework */,
+				2A42A5651498055900948C62 /* QTKit.framework */,
+				2A42A5671498056500948C62 /* Quartz.framework */,
+				2A681B0F1498A2E3002E2E9E /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A42A559149804DF00948C62 /* DeviceSeekerSnapshot */ = {
+			isa = PBXGroup;
+			children = (
+				2A42A56C1498064100948C62 /* DSSnapshot.h */,
+				2A42A56D1498064100948C62 /* DSSnapshot.m */,
+			);
+			path = DeviceSeekerSnapshot;
+			sourceTree = "<group>";
+		};
+		2A681B0F1498A2E3002E2E9E /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A681B101498A2E3002E2E9E /* AppKit.framework */,
+				2A681B111498A2E3002E2E9E /* CoreData.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		2A681B131498A2E3002E2E9E /* DSLogin */ = {
+			isa = PBXGroup;
+			children = (
+				2A681B1F1498A2E3002E2E9E /* DSAppDelegate.h */,
+				2A681B201498A2E3002E2E9E /* DSAppDelegate.m */,
+				2A681B221498A2E4002E2E9E /* MainMenu.xib */,
+				2A681B141498A2E3002E2E9E /* Supporting Files */,
+			);
+			path = DSLogin;
+			sourceTree = "<group>";
+		};
+		2A681B141498A2E3002E2E9E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A681B151498A2E3002E2E9E /* DSLogin-Info.plist */,
+				2A681B161498A2E3002E2E9E /* InfoPlist.strings */,
+				2A681B191498A2E3002E2E9E /* main.m */,
+				2A681B1B1498A2E3002E2E9E /* DSLogin-Prefix.pch */,
+				2A681B1C1498A2E3002E2E9E /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A42A552149804DF00948C62 /* DeviceSeekerSnapshot */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A42A560149804DF00948C62 /* Build configuration list for PBXNativeTarget "DeviceSeekerSnapshot" */;
+			buildPhases = (
+				2A42A54F149804DF00948C62 /* Sources */,
+				2A42A550149804DF00948C62 /* Frameworks */,
+				2A42A551149804DF00948C62 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeviceSeekerSnapshot;
+			productName = DeviceSeekerSnapshot;
+			productReference = 2A42A553149804DF00948C62 /* DeviceSeekerSnapshot */;
+			productType = "com.apple.product-type.tool";
+		};
+		2A681B0B1498A2E3002E2E9E /* DSLogin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A681B251498A2E4002E2E9E /* Build configuration list for PBXNativeTarget "DSLogin" */;
+			buildPhases = (
+				2A681B081498A2E3002E2E9E /* Sources */,
+				2A681B091498A2E3002E2E9E /* Frameworks */,
+				2A681B0A1498A2E3002E2E9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSLogin;
+			productName = DSLogin;
+			productReference = 2A681B0C1498A2E3002E2E9E /* DSLogin.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A42A54A149804DF00948C62 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2A42A54D149804DF00948C62 /* Build configuration list for PBXProject "DeviceSeekerSnapshot" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A42A548149804DF00948C62;
+			productRefGroup = 2A42A554149804DF00948C62 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A42A552149804DF00948C62 /* DeviceSeekerSnapshot */,
+				2A681B0B1498A2E3002E2E9E /* DSLogin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2A681B0A1498A2E3002E2E9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A681B181498A2E3002E2E9E /* InfoPlist.strings in Resources */,
+				2A681B1E1498A2E3002E2E9E /* Credits.rtf in Resources */,
+				2A681B241498A2E4002E2E9E /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A42A54F149804DF00948C62 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A42A56E1498064100948C62 /* DSSnapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A681B081498A2E3002E2E9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A681B1A1498A2E3002E2E9E /* main.m in Sources */,
+				2A681B211498A2E3002E2E9E /* DSAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2A681B161498A2E3002E2E9E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A681B171498A2E3002E2E9E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		2A681B1C1498A2E3002E2E9E /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A681B1D1498A2E3002E2E9E /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		2A681B221498A2E4002E2E9E /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A681B231498A2E4002E2E9E /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2A42A55E149804DF00948C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		2A42A55F149804DF00948C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		2A42A561149804DF00948C62 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				PRODUCT_NAME = DSSnapshot;
+			};
+			name = Debug;
+		};
+		2A42A562149804DF00948C62 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				PRODUCT_NAME = DSSnapshot;
+			};
+			name = Release;
+		};
+		2A681B261498A2E4002E2E9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSLogin/DSLogin-Prefix.pch";
+				INFOPLIST_FILE = "DSLogin/DSLogin-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2A681B271498A2E4002E2E9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSLogin/DSLogin-Prefix.pch";
+				INFOPLIST_FILE = "DSLogin/DSLogin-Info.plist";
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx10.6;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A42A54D149804DF00948C62 /* Build configuration list for PBXProject "DeviceSeekerSnapshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A42A55E149804DF00948C62 /* Debug */,
+				2A42A55F149804DF00948C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A42A560149804DF00948C62 /* Build configuration list for PBXNativeTarget "DeviceSeekerSnapshot" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A42A561149804DF00948C62 /* Debug */,
+				2A42A562149804DF00948C62 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A681B251498A2E4002E2E9E /* Build configuration list for PBXNativeTarget "DSLogin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A681B261498A2E4002E2E9E /* Debug */,
+				2A681B271498A2E4002E2E9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A42A54A149804DF00948C62 /* Project object */;
+}

@@ -1,0 +1,268 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2A97927A149B0C700051BF61 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A979279149B0C700051BF61 /* Foundation.framework */; };
+		2A97927D149B0C700051BF61 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A97927C149B0C700051BF61 /* main.m */; };
+		2A979289149B0DDC0051BF61 /* DSCheckup.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A979288149B0DDC0051BF61 /* DSCheckup.m */; };
+		2A979292149BE8870051BF61 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A979290149BE87E0051BF61 /* AppKit.framework */; };
+		2A979295149BF5170051BF61 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A979293149BF50A0051BF61 /* Cocoa.framework */; };
+		2A979298149C29580051BF61 /* DSSnapshot.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A979297149C29580051BF61 /* DSSnapshot.m */; };
+		2A97929B149C29B20051BF61 /* QTKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A979299149C29A70051BF61 /* QTKit.framework */; };
+		2A97929E149C5B3A0051BF61 /* CoreFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A97929C149C5B2A0051BF61 /* CoreFoundation.framework */; };
+		2A9792A1149C60B40051BF61 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A97929F149C60A20051BF61 /* CoreVideo.framework */; };
+		2A9792A4149C61430051BF61 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A9792A2149C61340051BF61 /* QuartzCore.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		2A979273149B0C700051BF61 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		2A979275149B0C700051BF61 /* DSCheckup */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = DSCheckup; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A979279149B0C700051BF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2A97927C149B0C700051BF61 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2A97927F149B0C700051BF61 /* DSCheckup-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DSCheckup-Prefix.pch"; sourceTree = "<group>"; };
+		2A979287149B0DDC0051BF61 /* DSCheckup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSCheckup.h; sourceTree = "<group>"; };
+		2A979288149B0DDC0051BF61 /* DSCheckup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSCheckup.m; sourceTree = "<group>"; };
+		2A97928A149B1ECC0051BF61 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		2A979290149BE87E0051BF61 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		2A979293149BF50A0051BF61 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		2A979296149C29580051BF61 /* DSSnapshot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DSSnapshot.h; sourceTree = "<group>"; };
+		2A979297149C29580051BF61 /* DSSnapshot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DSSnapshot.m; sourceTree = "<group>"; };
+		2A979299149C29A70051BF61 /* QTKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QTKit.framework; path = System/Library/Frameworks/QTKit.framework; sourceTree = SDKROOT; };
+		2A97929C149C5B2A0051BF61 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		2A97929F149C60A20051BF61 /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		2A9792A2149C61340051BF61 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2A979272149B0C700051BF61 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A979292149BE8870051BF61 /* AppKit.framework in Frameworks */,
+				2A979295149BF5170051BF61 /* Cocoa.framework in Frameworks */,
+				2A97929E149C5B3A0051BF61 /* CoreFoundation.framework in Frameworks */,
+				2A9792A1149C60B40051BF61 /* CoreVideo.framework in Frameworks */,
+				2A97927A149B0C700051BF61 /* Foundation.framework in Frameworks */,
+				2A9792A4149C61430051BF61 /* QuartzCore.framework in Frameworks */,
+				2A97929B149C29B20051BF61 /* QTKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2A97926A149B0C6E0051BF61 = {
+			isa = PBXGroup;
+			children = (
+				2A97927B149B0C700051BF61 /* DSCheckup */,
+				2A979278149B0C700051BF61 /* Frameworks */,
+				2A979276149B0C700051BF61 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2A979276149B0C700051BF61 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2A979275149B0C700051BF61 /* DSCheckup */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2A979278149B0C700051BF61 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A979290149BE87E0051BF61 /* AppKit.framework */,
+				2A979293149BF50A0051BF61 /* Cocoa.framework */,
+				2A97929C149C5B2A0051BF61 /* CoreFoundation.framework */,
+				2A97928A149B1ECC0051BF61 /* CoreLocation.framework */,
+				2A97929F149C60A20051BF61 /* CoreVideo.framework */,
+				2A979279149B0C700051BF61 /* Foundation.framework */,
+				2A9792A2149C61340051BF61 /* QuartzCore.framework */,
+				2A979299149C29A70051BF61 /* QTKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A97927B149B0C700051BF61 /* DSCheckup */ = {
+			isa = PBXGroup;
+			children = (
+				2A97927C149B0C700051BF61 /* main.m */,
+				2A97927E149B0C700051BF61 /* Supporting Files */,
+				2A979287149B0DDC0051BF61 /* DSCheckup.h */,
+				2A979288149B0DDC0051BF61 /* DSCheckup.m */,
+				2A979296149C29580051BF61 /* DSSnapshot.h */,
+				2A979297149C29580051BF61 /* DSSnapshot.m */,
+			);
+			path = DSCheckup;
+			sourceTree = "<group>";
+		};
+		2A97927E149B0C700051BF61 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2A97927F149B0C700051BF61 /* DSCheckup-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2A979274149B0C700051BF61 /* DSCheckup */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A979284149B0C700051BF61 /* Build configuration list for PBXNativeTarget "DSCheckup" */;
+			buildPhases = (
+				2A979271149B0C700051BF61 /* Sources */,
+				2A979272149B0C700051BF61 /* Frameworks */,
+				2A979273149B0C700051BF61 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DSCheckup;
+			productName = DSCheckup;
+			productReference = 2A979275149B0C700051BF61 /* DSCheckup */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2A97926C149B0C6F0051BF61 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 2A97926F149B0C6F0051BF61 /* Build configuration list for PBXProject "DSCheckup" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2A97926A149B0C6E0051BF61;
+			productRefGroup = 2A979276149B0C700051BF61 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2A979274149B0C700051BF61 /* DSCheckup */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2A979271149B0C700051BF61 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A97927D149B0C700051BF61 /* main.m in Sources */,
+				2A979289149B0DDC0051BF61 /* DSCheckup.m in Sources */,
+				2A979298149C29580051BF61 /* DSSnapshot.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2A979282149B0C700051BF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx10.6;
+			};
+			name = Debug;
+		};
+		2A979283149B0C700051BF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.6;
+				SDKROOT = macosx10.6;
+			};
+			name = Release;
+		};
+		2A979285149B0C700051BF61 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSCheckup/DSCheckup-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		2A979286149B0C700051BF61 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DSCheckup/DSCheckup-Prefix.pch";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2A97926F149B0C6F0051BF61 /* Build configuration list for PBXProject "DSCheckup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A979282149B0C700051BF61 /* Debug */,
+				2A979283149B0C700051BF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A979284149B0C700051BF61 /* Build configuration list for PBXNativeTarget "DSCheckup" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A979285149B0C700051BF61 /* Debug */,
+				2A979286149B0C700051BF61 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2A97926C149B0C6F0051BF61 /* Project object */;
+}

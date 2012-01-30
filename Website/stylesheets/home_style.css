@@ -1,0 +1,12 @@
+/*
+ home.css
+ Author: Micah Holden
+ Date: 10/28/11
+ 
+ Adds styling to the home page.
+*/
+p {
+    color:#445668; margin:20px 10px;
+    font-size:20px;
+    text-align:center; text-shadow:0px 1px 0px #f2f2f2;
+}

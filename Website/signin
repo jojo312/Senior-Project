@@ -1,0 +1,61 @@
+<?
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sign In</title>
+    <meta charset="UTF-8" />
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="stylesheets/form_style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+    <nav>
+        <a href="/~mjholden/DMS/">Home</a>
+        <?
+        if(isset($_SESSION['signed_in']) && $_SESSION['signed_in']) // User is logged in
+        {
+        ?>
+        <a href="/~mjholden/DMS/devices">Devices</a>
+        <a href="/~mjholden/DMS/settings" class="signin">Settings</a>
+        <a href="/~mjholden/DMS/process.php" class="signin">Sign Out</a>
+    </nav>
+    <div class="maindiv">
+        <h1>Welcome, <? echo $_SESSION['first']; ?></h1>
+        <p>You have successfully signed in!</p>
+        <p>Now you can manage your devices or see any reports your devices may have</p>
+    </div>
+        <?
+        }
+        else
+        {
+            echo "<a href=\"/~mjholden/DMS/register\" class=\"signin\">Register</a>";
+        ?>
+    </nav>
+    <div class="maindiv">
+        <h1>Sign In</h1>
+        <?
+        if(isset($_SESSION['error']))
+        {
+            $errors = explode("|",$_SESSION['error']);
+            echo "<span>".(count($errors)-1)." error(s) found</span><br />";
+            foreach($errors as $err)
+                echo "<span>$err</span><br />";
+            unset($_SESSION['error']);
+        }
+        ?>
+        <form action="process.php" method="POST">
+            <fieldset>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" autofocus="autofocus" />
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" />
+                <input type="submit" id="subsignin" name="subsignin" value="Sign In" />
+            </fieldset>
+        </form>
+    </div>
+    <?
+        }
+    ?>
+</body>
+</html>

@@ -1,0 +1,3 @@
+<Files ~ "^(register|signin|devices|device|reports|report)$">
+ForceType application/x-httpd-php
+</Files>

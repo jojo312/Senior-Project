@@ -1,0 +1,90 @@
+<?
+session_start();
+?>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+    <meta charset="UTF-8" />
+    <link href="stylesheets/style.css" rel="stylesheet" type="text/css" media="screen" />
+    <link href="stylesheets/form_style.css" rel="stylesheet" type="text/css" media="screen" />
+</head>
+<body>
+    <nav>
+        <a href="/~mjholden/DMS/">Home</a>
+        <?php
+        if(isset($_SESSION['signed_in']) && $_SESSION['signed_in']) // User is logged in
+        {
+        ?>
+        <a href="/~mjholden/DMS/devices">Devices</a>
+        <a href="/~mjholden/DMS/settings" class="signin">Settings</a>
+        <a href="/~mjholden/DMS/process.php" class="signin">Sign Out</a>
+        <?
+        }
+        else
+        {
+            echo "<a href=\"/~mjholden/DMS/signin\" class=\"signin\">Sign In</a>";
+        }
+        ?>
+    </nav>
+    <div class="maindiv">
+        <?
+        if(isset($_SESSION['signed_in']) && $_SESSION['signed_in'])
+        {
+            echo "<h1>Already Registered</h1>";
+            echo "<p>You have already registered and are currently signed in with the email address ".$_SESSION['email'].".</p>";
+            echo "<p>If this is not you then please sign out and try again.</p>";
+        }
+        else if(isset($_SESSION['regsuccess']))
+        {
+            if($_SESSION['regsuccess'])
+            {
+                echo "<h1>Registration Successful</h1>";
+                echo "<p>Thank you ".$_SESSION['regfirst'].", your registration was successful!</p>";
+                echo "<p>You ma now <a href=\"signin\" class=\"signin\">sign in</a>.</p>";
+            }
+            else
+            {
+                echo "<h1>Registration Failed</h1>";
+                echo "<p>Sorry about that, an error has occurred and your registration could not be completed.</p>";
+                echo "<p>Please try again in a few minutes.</p>";
+            }
+            unset($_SESSION['regsuccess']);
+            unset($_SESSION['regemail']);
+            unset($_SESSION['regfirst']);
+        }
+        else
+        {
+        ?>
+        <h1>Register</h1>
+        <?
+            if(isset($_SESSION['error']))
+            {
+                $errors = explode("|",$_SESSION['error']);
+                echo "<span>".(count($errors)-1)." error(s) found</span><br />";
+                foreach($errors as $err)
+                    echo "<span>".$err."</span><br />";
+                unset($_SESSION['error']);
+            }
+        ?>
+        <form action="process.php" method="post">
+            <fieldset>
+                <label for="first_name">First Name</label>
+                <input type="text" id="first_name" name="first_name" autofocus="autofocus" required="required" />
+                <label for="last_name">Last Name</label>
+                <input type="text" id="last_name" name="last_name" required="required" />
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required="required" />
+                <label for="password">Password:</label>
+                <input type="password" id="password1" name="password1" required="required" />
+                <label for="confirmpw">Confirm Password:</label>
+                <input type="password" id="password2" name="password2" required="required" />
+                <input type="submit" id="subregister" name="subregister" value="Submit" />
+            </fieldset>
+        </form>
+        <?
+        }
+        ?>
+    </div>
+</body>
+</html>
